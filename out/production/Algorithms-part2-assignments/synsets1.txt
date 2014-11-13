@@ -1,0 +1,94 @@
+0,'hood,(slang) a neighborhood  
+1,1530s,the decade from 1530 to 1539  
+2,15_May_Organization,a terrorist organization formed in 1979 by a faction of the Popular Front for the Liberation of Palestine but disbanded in the 1980s when key members left to join a faction of al-Fatah  
+3,1750s,the decade from 1750 to 1759  
+4,1760s,the decade from 1760 to 1769  
+5,1770s,the decade from 1770 to 1779  
+6,1780s,the decade from 1780 to 1789  
+7,1790s,the decade from 1790 to 1799  
+8,18-karat_gold,an alloy that contains 75 per cent gold  
+9,1820s,the decade from 1820 to 1829  
+10,1830s,the decade from 1830 to 1839  
+11,1840s,the decade from 1840 to 1849  
+12,1850s,the decade from 1850 to 1859  
+13,1860s,the decade from 1860 to 1869  
+14,1870s,the decade from 1870 to 1879  
+15,1900s,the decade from 1900 to 1909  
+16,22-karat_gold,an alloy that contains 87 per cent gold  
+17,24-karat_gold pure_gold,100 per cent gold  
+18,24/7,uptime is 24 hours a day 7 days a week  
+19,401-k_plan 401-k,a retirement savings plan that is funded by employee contributions and (often) matching contributions from the employer; contributions are made from your salary before taxes and the funds grow tax-free until they are withdrawn, at which point they can be converted into an IRA; funds can be transferred if you change employers and you can (to some extent) manage the investments yourself  
+20,9/11 9-11 September_11 Sept._11 Sep_11,the day in 2001 when Arab suicide bombers hijacked United States airliners and used them as bombs  
+21,A a,the 1st letter of the Roman alphabet  
+22,A type_A group_A,the blood group whose red cells carry the A antigen  
+23,A'man,the Israeli military intelligence which produces comprehensive national intelligence briefings for the prime minister and the cabinet  
+24,A-horizon A_horizon,the top layer of a soil profile; usually contains humus  
+25,A-line,women's clothing that has a fitted top and a flared skirt that is widest at the hemline; "it is called the A-line because the effect resembles the capital letter A"  
+26,A-list,a list of names of specially favored people; "the boss gave me his A-list of people we should try to recruit"  
+27,A-scan_ultrasonography,the use of ultrasonography to measure the length of the eyeball  
+28,A-team,a group of elite soldiers or a leadership group of advisors or workers in an organization  
+29,AB type_AB group_AB,the blood group whose red cells carry both the A and B antigens  
+30,ABO_antibodies,blood type antibodies  
+31,ABO_blood_group_system ABO_system ABO_group,a classification system for the antigens of human blood; used in blood transfusion therapy; four groups are A and B and AB and O  
+32,ACE_inhibitor angiotensin-converting_enzyme_inhibitor,an antihypertensive drug that blocks the formation of angiotensin II in the kidney, leading to relaxation of the arteries; promotes the excretion of salt and water by inhibiting the activity of the angiotensin converting enzyme; also used to treat congestive heart failure  
+33,ADA-SCID,SCID resulting from mutation of a gene that codes for adenosine deaminase  
+34,AIDS acquired_immune_deficiency_syndrome,a serious (often fatal) disease of the immune system transmitted through blood products especially by sexual contact or contaminated needles  
+35,ALGOL,(from a combination of ALGOrithmic and Language); a programming language used to express computer programs as algorithms  
+36,AND_circuit AND_gate,a circuit in a computer that fires only when all of its inputs fire  
+37,APC,a drug combination found in some over-the-counter headache remedies (aspirin and phenacetin and caffeine)  
+38,ASCII_character,any member of the standard code for representing characters by binary numbers  
+39,ASCII_character_set,(computer science) 128 characters that make up the ASCII coding scheme; "the ASCII character set is the most universal character coding set"  
+40,ASCII_text_file,a text file that contains only ASCII characters without special formatting  
+41,ASL American_sign_language,the sign language used in the United States  
+42,AWOL,one who is away or absent without leave  
+43,A_battery,the battery used to heat the filaments of a vacuum tube  
+44,A_level,the advanced level of a subject taken in school (usually two years after O level)  
+45,Aachen Aken Aix-la-Chapelle,a city in western Germany near the Dutch and Belgian borders; formerly it was Charlemagne's northern capital  
+46,Aalborg Alborg,a city and port in northern Jutland  
+47,Aalst,a town in central Belgium  
+48,Aalto Alvar_Aalto Hugo_Alvar_Henrik_Aalto,Finnish architect and designer of furniture (1898-1976)  
+49,Aare Aar Aare_River,a river in north central Switzerland that runs northeast into the Rhine  
+50,Aaron,(Old Testament) elder brother of Moses and first high priest of the Israelites; created the golden calf  
+51,Aaron Henry_Louis_Aaron Hank_Aaron,United States professional baseball player who hit more home runs than Babe Ruth (born in 1934)  
+52,Ab Av,the eleventh month of the civil year; the fifth month of the ecclesiastical year in the Jewish calendar (in July and August)  
+53,Abadan,a port city in southwestern Iran  
+54,Abbe_condenser,a condenser having 2 or 3 lenses with wide aperture for use in microscopes  
+55,Abecedarian,a 16th century sect of Anabaptists centered in Germany who had an absolute disdain for human knowledge  
+56,Abel,(Old Testament) Cain and Abel were the first children of Adam and Eve born after the Fall of Man; Abel was killed by Cain  
+57,Abel Niels_Abel Niels_Henrik_Abel,Norwegian mathematician (1802-1829)  
+58,Abelard Peter_Abelard Pierre_Abelard,French philosopher and theologian; lover of Heloise (1079-1142)  
+59,Abelian_group commutative_group,a group that satisfies the commutative law  
+60,Abelmoschus genus_Abelmoschus,genus of tropical coarse herbs having large lobed leaves and often yellow flowers  
+61,Aberdare,a mining town in southern Wales  
+62,Aberdeen,a town in western Washington  
+63,Aberdeen,a town in northeastern South Dakota  
+64,Aberdeen,a town in northeastern Maryland  
+65,Aberdeen,a city in northeastern Scotland on the North Sea  
+66,Aberdeen_Angus Angus black_Angus,black hornless breed from Scotland  
+67,Abidjan,city recognized by the United States as the capital of the Ivory Coast; largest city of the Ivory Coast  
+68,Abies genus_Abies,true firs  
+69,Abilene,a city in central Texas  
+70,Abilene,a town in central Kansas to the west of Topeka; home of Dwight D. Eisenhower  
+71,Abkhaz Abkhas,Circassian people living east of the Black Sea  
+72,Abkhaz Abkhazia,an autonomous province of Georgia on the Black Sea; a strong independence movement has resulted in much instability  
+73,Abkhaz Abkhazian Abkhas Abkhasian,a member of the Circassian people who live to the east of the Black Sea  
+74,Abkhazian Abkhasian,a Circassian language spoken by the Abkhaz  
+75,Abnaki,the Algonquian language spoken by the Abnaki and Penobscot  
+76,Abnaki Abenaki,a member of the Algonquian people of Maine and southern Quebec  
+77,Abney_level,a surveying instrument consisting of a spirit level and a sighting tube; used to measure the angle of inclination of a line from the observer to the target  
+78,Aborigine native_Australian Australian_Aborigine,a member of the people living in Australia when Europeans arrived  
+79,Abraham Ibrahim,the first of the Old Testament patriarchs and the father of Isaac; according to Genesis, God promised to give Abraham's family (the Hebrews) the land of Canaan (the Promised Land); God tested Abraham by asking him to sacrifice his son; "Judaism, Christianity, and Islam each has a special claim on Abraham"  
+80,Abraham's_bosom bosom_of_Abraham,the place where the just enjoy the peace of heaven after death  
+81,Abramis genus_Abramis,European fishes  
+82,Abrocoma genus_Abrocoma,abrocomes  
+83,Abronia genus_Abronia,genus of western North American herbs having showy flowers  
+84,Abruzzi Abruzzi_e_Molise,a mountainous region of central Italy on the Adriatic  
+85,Abstract_Expressionism action_painting,a New York school of painting characterized by freely created abstractions; the first important school of American painting to develop independently of European styles  
+86,Abu_Dhabi United_Arab_Emirates's_capital,a sheikhdom of eastern Arabia and capital of the United Arab Emirates  
+87,Abu_Hafs_al-Masri_Brigades,a terrorist group that has worked with Al Qaeda; claimed responsibility for attacks in Iraq and Turkey  
+88,Abu_Sayyaf Bearer_of_the_Sword,a small gang of terrorist thugs claiming to seek a separate Islamic state for the Muslim minority in the Philippines; uses bombing and assassination and extortion and kidnapping; "In 2001 Abu Sayyaf kidnapped twenty people and beheaded one of the American captives"  
+89,Abudefduf genus_Abudefduf,damsel fishes  
+90,Abuja capital_of_Nigeria Nigerian_capital,capital of Nigeria in the center of the country
+
+
+
