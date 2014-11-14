@@ -42,6 +42,12 @@ public class SAP {
         markedB[t] = true;
         distToB[t] = 0;
 
+        SET<Integer> ancestorA = new SET<Integer>();
+        SET<Integer> ancestorB = new SET<Integer>();
+
+        ancestorA.add(s);
+        ancestorB.add(t);
+
         dist = Integer.MAX_VALUE;
         ancestor = -1;
 
@@ -54,6 +60,7 @@ public class SAP {
                 if (!markedA[x]) {
                     distToA[x] = distToA[w] + 1;
                     markedA[x] = true;
+                    ancestorA.add(x);
                     p.enqueue(x);
                 }
             }
@@ -65,20 +72,27 @@ public class SAP {
                 if (!markedB[y]) {
                     distToB[y] = distToB[v] + 1;
                     markedB[y] = true;
+                    ancestorB.add(y);
                     q.enqueue(y);
                 }
             }
         }
 
-        for (int i = 0; i < g.V(); i++) {
-            if (markedA[i] && markedB[i]) {
+        for (int i : ancestorA) {
+            if (ancestorB.contains(i)) {
                 if (distToA[i] + distToB[i] < dist) {
                     dist = distToA[i] + distToB[i];
                     ancestor = i;
                 }
             }
+        }
+
+        for (int i : ancestorA) {
             markedA[i] = false;
             distToA[i] = Integer.MAX_VALUE;
+        }
+
+        for (int i : ancestorB) {
             markedB[i] = false;
             distToB[i] = Integer.MAX_VALUE;
         }
@@ -92,15 +106,21 @@ public class SAP {
         dist = Integer.MAX_VALUE;
         ancestor = -1;
 
+
+        SET<Integer> ancestorA = new SET<Integer>();
+        SET<Integer> ancestorB = new SET<Integer>();
+
         for (int a : s) {
             markedA[a] = true;
             distToA[a] = 0;
+            ancestorA.add(a);
             p.enqueue(a);
         }
 
         for (int b : t) {
             markedB[b] = true;
             distToB[b] = 0;
+            ancestorB.add(b);
             q.enqueue(b);
         }
 
@@ -111,6 +131,7 @@ public class SAP {
                     distToA[x] = distToA[w] + 1;
                     markedA[x] = true;
                     p.enqueue(x);
+                    ancestorA.add(x);
                 }
             }
         }
@@ -122,23 +143,28 @@ public class SAP {
                     distToB[y] = distToB[v] + 1;
                     markedB[y] = true;
                     q.enqueue(y);
+                    ancestorB.add(y);
                 }
             }
         }
 
-        for (int i = 0; i < g.V(); i++) {
-            if (markedA[i] && markedB[i]) {
+        for (int i : ancestorA) {
+            if (ancestorB.contains(i)) {
                 if (distToA[i] + distToB[i] < dist) {
                     dist = distToA[i] + distToB[i];
                     ancestor = i;
                 }
-            } else if (markedA[i]) {
-                markedA[i] = false;
-                distToA[i] = Integer.MAX_VALUE;
-            } else if (markedB[i]) {
-                markedB[i] = false;
-                distToB[i] = Integer.MAX_VALUE;
             }
+        }
+
+        for (int i : ancestorA) {
+            markedA[i] = false;
+            distToA[i] = Integer.MAX_VALUE;
+        }
+
+        for (int i : ancestorB) {
+            markedB[i] = false;
+            distToB[i] = Integer.MAX_VALUE;
         }
     }
 
@@ -177,7 +203,7 @@ public class SAP {
 
     // do unit testing of this class
     public static void main(String[] args) {
-        In in = new In("Digraph2.txt");
+        In in = new In("Digraph1.txt");
         Digraph G = new Digraph(in);
         SAP sap = new SAP(G);
 

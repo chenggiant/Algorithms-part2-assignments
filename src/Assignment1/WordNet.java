@@ -1,3 +1,4 @@
+import java.util.HashMap;
 import java.util.HashSet;
 
 public class WordNet {
@@ -7,6 +8,8 @@ public class WordNet {
     private HashSet<String> words;
     private final Digraph g;
     private final SAP sap;
+    private HashMap<String, SET<Integer>> map;
+
 
     // constructor takes the name of the two input files
     public WordNet(String synsets, String hypernyms) {
@@ -21,6 +24,7 @@ public class WordNet {
 
         synsetArray =  new String[V];
         adjNouns = (SET<String>[]) new SET[V];
+        map = new HashMap<String, SET<Integer>>();
 
         inSynsets = new In(synsets);
         for (int v = 0; v < V; v++) {
@@ -28,7 +32,18 @@ public class WordNet {
             synsetArray[v] = synset;
             String[] syns = synset.split(" ");
             adjNouns[v] = new SET<String>();
-            for (String syn : syns) adjNouns[v].add(syn);
+            for (String syn : syns) {
+                SET<Integer> set = new SET<Integer>();
+                adjNouns[v].add(syn);
+                if (map.containsKey(syn)) {
+                    SET<Integer> newSet = map.get(syn);
+                    newSet.add(v);
+                    map.put(syn, newSet);
+                } else {
+                    set.add(v);
+                    map.put(syn, set);
+                }
+            }
         }
 
         for (int v = 0; v < V; v++) {
@@ -73,14 +88,7 @@ public class WordNet {
     public int distance(String nounA, String nounB) {
         if (!isNoun(nounA) || !isNoun(nounB)) throw new IllegalArgumentException();
 
-        Stack<Integer> a = new Stack<Integer>();
-        Stack<Integer> b = new Stack<Integer>();
-
-        for (int v = 0; v < V; v++) {
-            if (adjNouns[v].contains(nounA)) a.push(v);
-            if (adjNouns[v].contains(nounB)) b.push(v);
-        }
-        return sap.length(a, b);
+        return sap.length(map.get(nounA), map.get(nounB));
     }
 
     // a synset (second field of synsets.txt) that is the common ancestor of nounA and nounB
@@ -88,19 +96,14 @@ public class WordNet {
     public String sap(String nounA, String nounB) {
         if (!isNoun(nounA) || !isNoun(nounB)) throw new IllegalArgumentException();
 
-        Stack<Integer> a = new Stack<Integer>();
-        Stack<Integer> b = new Stack<Integer>();
-
-        for (int v = 0; v < V; v++) {
-            if (adjNouns[v].contains(nounA)) a.push(v);
-            if (adjNouns[v].contains(nounB)) b.push(v);
-        }
-        return synsetArray[sap.ancestor(a, b)];
+        return synsetArray[sap.ancestor(map.get(nounA), map.get(nounB))];
     }
 
     // do unit testing of this class
     public static void main(String[] args) {
         WordNet wordnet = new WordNet("synsets.txt", "hypernyms.txt");
-        StdOut.println(wordnet.sap("table", "bed"));
+        StdOut.println(wordnet.sap("grappling_hook", "order_Nudibranchia"));
+        StdOut.println(wordnet.distance("grappling_hook", "order_Nudibranchia"));
+
     }
 }
