@@ -1,4 +1,8 @@
 *.class
+*.zip
+
+
+/out
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
@@ -8,9 +12,6 @@
 *.war
 *.ear
 
-
-# Zipped Files #
-*.zip
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
