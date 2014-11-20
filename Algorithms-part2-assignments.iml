@@ -3,7 +3,7 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src/Assignment1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Assignment2" isTestSource="false" />
     </content>
     <orderEntry type="module-library">
       <library>
