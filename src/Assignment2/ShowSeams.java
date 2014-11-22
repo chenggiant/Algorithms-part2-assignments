@@ -31,7 +31,7 @@ public class ShowSeams {
 
     public static void main(String[] args)
     {
-        Picture inputImg = new Picture("6x5.png");
+        Picture inputImg = new Picture("HJocean.png");
         System.out.printf("image is %d columns by %d rows\n", inputImg.width(), inputImg.height());
         inputImg.show();        
         SeamCarver sc = new SeamCarver(inputImg);
